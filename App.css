@@ -1,0 +1,48 @@
+.stylesheet{
+  color: blue;
+  margin-top: -20px;
+  margin-left: 36%;
+  font-size: 100%;
+
+}
+  
+
+body {
+  margin: 200px; 
+  padding-bottom: 233px;
+  background: url("/src/images/maskgroup.jpg");
+  background-size: 45%;
+  background-position: center;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  transition: 5s;
+ 
+
+
+animation-name:animate;
+animation-direction:alternate-reverse;
+animation-duration:39s;
+animation-fill-mode:forwards;
+animation-iteration-count:infinite;
+animation-play-state:running;
+animation-timing-function: ease-in-out ;
+
+}
+
+ 
+
+
+
+@keyframes animate{
+  25%{
+    background-image:url("/src/images/bobby.jpg");
+    background-size: contain;
+  }
+  45%{
+    background-image:url("/src/images/frameten.jpg");
+    background-size: contain;
+  }
+  
+  }
+
